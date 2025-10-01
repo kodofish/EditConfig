@@ -388,14 +388,127 @@ dotnet_naming_style.all_uppercase_with_underscore.capitalization = all_upper
 #######################
 ## Readability Rules ##
 #######################
-# SA1101: Prefix local calls with this
+# Source: https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/ReadabilityRules.md
+
+# SA1100: DoNotPrefixCallsWithBaseUnlessLocalImplementationExists
+dotnet_diagnostic.SA1100.severity = warning
+
+# SA1101: PrefixLocalCallsWithThis
 dotnet_diagnostic.SA1101.severity = none
 
-# SA1123: Do not place regions within elements
+# SA1102: QueryClausesMustFollowPreviousClause
+dotnet_diagnostic.SA1102.severity = warning
+
+# SA1103: QueryClausesMustBeOnSeparateLinesOrAllOnOneLine
+dotnet_diagnostic.SA1103.severity = warning
+
+# SA1104: QueryClauseMustBeginOnNewLineWhenPreviousClauseSpansMultipleLines
+dotnet_diagnostic.SA1104.severity = warning
+
+# SA1105: QueryClausesSpanningMultipleLinesMustBeginOnOwnLine
+dotnet_diagnostic.SA1105.severity = warning
+
+# SA1106: CodeMustNotContainEmptyStatements
+dotnet_diagnostic.SA1106.severity = warning
+
+# SA1107: CodeMustNotContainMultipleStatementsOnOneLine
+dotnet_diagnostic.SA1107.severity = warning
+
+# SA1108: BlockStatementsMustNotContainEmbeddedComments
+dotnet_diagnostic.SA1108.severity = warning
+
+# SA1109: BlockStatementsMustNotContainEmbeddedRegions
+dotnet_diagnostic.SA1109.severity = warning
+
+# SA1110: OpeningParenthesisMustBeOnDeclarationLine
+dotnet_diagnostic.SA1110.severity = warning
+
+# SA1111: ClosingParenthesisMustBeOnLineOfLastParameter
+dotnet_diagnostic.SA1111.severity = warning
+
+# SA1112: ClosingParenthesisMustBeOnLineOfOpeningParenthesis
+dotnet_diagnostic.SA1112.severity = warning
+
+# SA1113: CommaMustBeOnSameLineAsPreviousParameter
+dotnet_diagnostic.SA1113.severity = warning
+
+# SA1114: ParameterListMustFollowDeclaration
+dotnet_diagnostic.SA1114.severity = warning
+
+# SA1115: ParameterMustFollowComma
+dotnet_diagnostic.SA1115.severity = warning
+
+# SA1116: SplitParametersMustStartOnLineAfterDeclaration
+dotnet_diagnostic.SA1116.severity = warning
+
+# SA1117: ParametersMustBeOnSameLineOrSeparateLines
+dotnet_diagnostic.SA1117.severity = warning
+
+# SA1118: ParameterMustNotSpanMultipleLines
+dotnet_diagnostic.SA1118.severity = warning
+
+# SA1120: CommentsMustContainText
+dotnet_diagnostic.SA1120.severity = warning
+
+# SA1121: UseBuiltInTypeAlias
+dotnet_diagnostic.SA1121.severity = warning
+
+# SA1122: UseStringEmptyForEmptyStrings
+dotnet_diagnostic.SA1122.severity = warning
+
+# SA1123: DoNotPlaceRegionsWithinElements
 dotnet_diagnostic.SA1123.severity = none
 
-# SA1124: Do not use regions
+# SA1124: DoNotUseRegions
 dotnet_diagnostic.SA1124.severity = none
+
+# SA1125: UseShorthandForNullableTypes
+dotnet_diagnostic.SA1125.severity = warning
+
+# SA1126: PrefixCallsCorrectly
+dotnet_diagnostic.SA1126.severity = warning
+
+# SA1127: GenericTypeConstraintsMustBeOnOwnLine
+dotnet_diagnostic.SA1127.severity = warning
+
+# SA1128: ConstructorInitializerMustBeOnOwnLine
+dotnet_diagnostic.SA1128.severity = warning
+
+# SA1129: DoNotUseDefaultValueTypeConstructor
+dotnet_diagnostic.SA1129.severity = warning
+
+# SA1130: UseLambdaSyntax
+dotnet_diagnostic.SA1130.severity = warning
+
+# SA1131: UseReadableConditions
+dotnet_diagnostic.SA1131.severity = warning
+
+# SA1132: DoNotCombineFields
+dotnet_diagnostic.SA1132.severity = warning
+
+# SA1133: DoNotCombineAttributes
+dotnet_diagnostic.SA1133.severity = warning
+
+# SA1134: AttributesMustNotShareLine
+dotnet_diagnostic.SA1134.severity = warning
+
+# SA1135: UsingDirectivesMustBeQualified
+dotnet_diagnostic.SA1135.severity = warning
+
+# SA1136: EnumValuesShouldBeOnSeparateLines
+dotnet_diagnostic.SA1136.severity = warning
+
+# SA1137: ElementsShouldHaveTheSameIndentation
+dotnet_diagnostic.SA1137.severity = warning
+
+# SA1139: UseLiteralsSuffixNotationInsteadOfCasting
+dotnet_diagnostic.SA1139.severity = warning
+
+# SA1141: UseTupleSyntax
+dotnet_diagnostic.SA1141.severity = warning
+
+# SA1142: ReferToTupleElementsByName
+dotnet_diagnostic.SA1142.severity = warning
 
 ####################
 ## Ordering Rules ##
