@@ -444,123 +444,163 @@ dotnet_naming_style.pascalcase_async.capitalization = pascal_case
 # Source: https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/ReadabilityRules.md
 
 # SA1100: DoNotPrefixCallsWithBaseUnlessLocalImplementationExists
+# 除非有本地實作，否則不要使用 base. 前綴來呼叫方法
 dotnet_diagnostic.SA1100.severity = warning
 
 # SA1101: PrefixLocalCallsWithThis
+# 本地呼叫必須使用 this. 前綴
 dotnet_diagnostic.SA1101.severity = none
 
 # SA1102: QueryClausesMustFollowPreviousClause
+# 查詢子句必須緊跟前一個子句
 dotnet_diagnostic.SA1102.severity = warning
 
 # SA1103: QueryClausesMustBeOnSeparateLinesOrAllOnOneLine
+# 查詢子句必須全部在同一行或分別在不同行
 dotnet_diagnostic.SA1103.severity = warning
 
 # SA1104: QueryClauseMustBeginOnNewLineWhenPreviousClauseSpansMultipleLines
+# 當前一個子句跨多行時，查詢子句必須從新行開始
 dotnet_diagnostic.SA1104.severity = warning
 
 # SA1105: QueryClausesSpanningMultipleLinesMustBeginOnOwnLine
+# 跨越多行的查詢子句必須從自己的行開始
 dotnet_diagnostic.SA1105.severity = warning
 
 # SA1106: CodeMustNotContainEmptyStatements
+# 程式碼不得包含空陳述式
 dotnet_diagnostic.SA1106.severity = warning
 
 # SA1107: CodeMustNotContainMultipleStatementsOnOneLine
+# 程式碼不得在一行包含多個陳述式
 dotnet_diagnostic.SA1107.severity = warning
 
 # SA1108: BlockStatementsMustNotContainEmbeddedComments
+# 區塊陳述式不得包含嵌入式註解
 dotnet_diagnostic.SA1108.severity = warning
 
 # SA1109: BlockStatementsMustNotContainEmbeddedRegions
+# 區塊陳述式不得包含嵌入式區域
 dotnet_diagnostic.SA1109.severity = warning
 
 # SA1110: OpeningParenthesisMustBeOnDeclarationLine
+# 左括號必須在宣告行上
 dotnet_diagnostic.SA1110.severity = warning
 
 # SA1111: ClosingParenthesisMustBeOnLineOfLastParameter
+# 右括號必須在最後一個參數的行上
 dotnet_diagnostic.SA1111.severity = warning
 
 # SA1112: ClosingParenthesisMustBeOnLineOfOpeningParenthesis
+# 右括號必須在左括號的同一行上
 dotnet_diagnostic.SA1112.severity = warning
 
 # SA1113: CommaMustBeOnSameLineAsPreviousParameter
+# 逗號必須與前一個參數在同一行
 dotnet_diagnostic.SA1113.severity = warning
 
 # SA1114: ParameterListMustFollowDeclaration
+# 參數清單必須緊跟宣告
 dotnet_diagnostic.SA1114.severity = warning
 
 # SA1115: ParameterMustFollowComma
+# 參數必須緊跟逗號
 dotnet_diagnostic.SA1115.severity = warning
 
 # SA1116: SplitParametersMustStartOnLineAfterDeclaration
+# 分割參數必須在宣告後的新行開始
 dotnet_diagnostic.SA1116.severity = warning
 
 # SA1117: ParametersMustBeOnSameLineOrSeparateLines
+# 參數必須全部在同一行或分別在不同行
 dotnet_diagnostic.SA1117.severity = warning
 
 # SA1118: ParameterMustNotSpanMultipleLines
+# 參數不得跨越多行
 dotnet_diagnostic.SA1118.severity = warning
 
 # SA1120: CommentsMustContainText
+# 註解必須包含文字
 dotnet_diagnostic.SA1120.severity = warning
 
 # SA1121: UseBuiltInTypeAlias
+# 使用內建型別別名
 dotnet_diagnostic.SA1121.severity = warning
 
 # SA1122: UseStringEmptyForEmptyStrings
+# 空字串使用 String.Empty
 dotnet_diagnostic.SA1122.severity = warning
 
 # SA1123: DoNotPlaceRegionsWithinElements
+# 不要在元素內放置區域
 dotnet_diagnostic.SA1123.severity = none
 
 # SA1124: DoNotUseRegions
+# 不要使用區域
 dotnet_diagnostic.SA1124.severity = none
 
 # SA1125: UseShorthandForNullableTypes
+# 使用可為 null 型別的簡寫語法
 dotnet_diagnostic.SA1125.severity = warning
 
 # SA1126: PrefixCallsCorrectly
+# 正確地使用前綴來呼叫方法
 dotnet_diagnostic.SA1126.severity = warning
 
 # SA1127: GenericTypeConstraintsMustBeOnOwnLine
+# 泛型型別條件約束必須在自己的行上
 dotnet_diagnostic.SA1127.severity = warning
 
 # SA1128: ConstructorInitializerMustBeOnOwnLine
+# 建構函式初始設定式必須在自己的行上
 dotnet_diagnostic.SA1128.severity = warning
 
 # SA1129: DoNotUseDefaultValueTypeConstructor
+# 不要使用預設實值型別建構函式
 dotnet_diagnostic.SA1129.severity = warning
 
 # SA1130: UseLambdaSyntax
+# 使用 Lambda 語法
 dotnet_diagnostic.SA1130.severity = warning
 
 # SA1131: UseReadableConditions
+# 使用可讀的條件
 dotnet_diagnostic.SA1131.severity = warning
 
 # SA1132: DoNotCombineFields
+# 不要合併欄位
 dotnet_diagnostic.SA1132.severity = warning
 
 # SA1133: DoNotCombineAttributes
+# 不要合併屬性
 dotnet_diagnostic.SA1133.severity = warning
 
 # SA1134: AttributesMustNotShareLine
+# 屬性不得共用同一行
 dotnet_diagnostic.SA1134.severity = warning
 
 # SA1135: UsingDirectivesMustBeQualified
+# using 指示詞必須是完整限定的
 dotnet_diagnostic.SA1135.severity = warning
 
 # SA1136: EnumValuesShouldBeOnSeparateLines
+# 列舉值應該各自獨立一行
 dotnet_diagnostic.SA1136.severity = warning
 
 # SA1137: ElementsShouldHaveTheSameIndentation
+# 元素應該具有相同的縮排
 dotnet_diagnostic.SA1137.severity = warning
 
 # SA1139: UseLiteralsSuffixNotationInsteadOfCasting
+# 使用字面值後綴標記法而非轉型
 dotnet_diagnostic.SA1139.severity = warning
 
 # SA1141: UseTupleSyntax
+# 使用元組語法
 dotnet_diagnostic.SA1141.severity = warning
 
 # SA1142: ReferToTupleElementsByName
+# 使用名稱引用元組元素
 dotnet_diagnostic.SA1142.severity = warning
 
 ####################
@@ -569,48 +609,63 @@ dotnet_diagnostic.SA1142.severity = warning
 # Source: https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/OrderingRules.md
 
 # SA1200: UsingDirectivesMustBePlacedCorrectly
+# using 指示詞必須放置在正確的位置
 dotnet_diagnostic.SA1200.severity = none
 
 # SA1201: ElementsMustAppearInTheCorrectOrder
+# 元素必須以正確的順序出現
 dotnet_diagnostic.SA1201.severity = warning
 
 # SA1202: ElementsMustBeOrderedByAccess
+# 元素必須依存取層級排序
 dotnet_diagnostic.SA1202.severity = warning
 
 # SA1203: ConstantsMustAppearBeforeFields
+# 常數必須出現在欄位之前
 dotnet_diagnostic.SA1203.severity = warning
 
 # SA1204: StaticElementsMustAppearBeforeInstanceElements
+# 靜態元素必須出現在執行個體元素之前
 dotnet_diagnostic.SA1204.severity = warning
 
 # SA1205: PartialElementsMustDeclareAccess
+# 部分元素必須宣告存取層級
 dotnet_diagnostic.SA1205.severity = warning
 
 # SA1206: DeclarationKeywordsMustFollowOrder
+# 宣告關鍵字必須遵循順序
 dotnet_diagnostic.SA1206.severity = warning
 
 # SA1207: ProtectedMustComeBeforeInternal
+# protected 必須出現在 internal 之前
 dotnet_diagnostic.SA1207.severity = warning
 
 # SA1208: SystemUsingDirectivesMustBePlacedBeforeOtherUsingDirectives
+# System using 指示詞必須放置在其他 using 指示詞之前
 dotnet_diagnostic.SA1208.severity = warning
 
 # SA1209: UsingAliasDirectivesMustBePlacedAfterOtherUsingDirectives
+# using 別名指示詞必須放置在其他 using 指示詞之後
 dotnet_diagnostic.SA1209.severity = warning
 
 # SA1210: UsingDirectivesMustBeOrderedAlphabeticallyByNamespace
+# using 指示詞必須依命名空間按字母順序排序
 dotnet_diagnostic.SA1210.severity = warning
 
 # SA1211: UsingAliasDirectivesMustBeOrderedAlphabeticallyByAliasName
+# using 別名指示詞必須依別名按字母順序排序
 dotnet_diagnostic.SA1211.severity = warning
 
 # SA1212: PropertyAccessorsMustFollowOrder
+# 屬性存取子必須遵循順序
 dotnet_diagnostic.SA1212.severity = warning
 
 # SA1213: EventAccessorsMustFollowOrder
+# 事件存取子必須遵循順序
 dotnet_diagnostic.SA1213.severity = warning
 
 # SA1214: ReadonlyElementsMustAppearBeforeNonReadonlyElements
+# 唯讀元素必須出現在非唯讀元素之前
 dotnet_diagnostic.SA1214.severity = warning
 
 ##################
@@ -619,118 +674,155 @@ dotnet_diagnostic.SA1214.severity = warning
 # Source: https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/NamingRules.md
 
 # SA1300: ElementMustBeginWithUpperCaseLetter
+# 元素必須以大寫字母開頭
 dotnet_diagnostic.SA1300.severity = none
 
 # SA1301: ElementMustBeginWithLowerCaseLetter
+# 元素必須以小寫字母開頭
 dotnet_diagnostic.SA1301.severity = none
 
 # SA1302: InterfaceNamesMustBeginWithI
+# 介面名稱必須以 I 開頭
 dotnet_diagnostic.SA1302.severity = warning
 
 # SA1303: ConstFieldNamesMustBeginWithUpperCaseLetter
+# 常數欄位名稱必須以大寫字母開頭
 dotnet_diagnostic.SA1303.severity = warning
 
 # SA1304: NonPrivateReadonlyFieldsMustBeginWithUpperCaseLetter
+# 非私有唯讀欄位必須以大寫字母開頭
 dotnet_diagnostic.SA1304.severity = warning
 
 # SA1305: FieldNamesMustNotUseHungarianNotation
+# 欄位名稱不得使用匈牙利命名法
 dotnet_diagnostic.SA1305.severity = none
 
 # SA1306: FieldNamesMustBeginWithLowerCaseLetter
+# 欄位名稱必須以小寫字母開頭
 dotnet_diagnostic.SA1306.severity = none
 
 # SA1307: AccessibleFieldsMustBeginWithUpperCaseLetter
+# 可存取的欄位必須以大寫字母開頭
 dotnet_diagnostic.SA1307.severity = warning
 
 # SA1308: VariableNamesMustNotBePrefixed
+# 變數名稱不得使用前綴
 dotnet_diagnostic.SA1308.severity = none
 
 # SA1309: FieldNamesMustNotBeginWithUnderscore
+# 欄位名稱不得以底線開頭
 dotnet_diagnostic.SA1309.severity = none
 
 # SA1310: FieldNamesMustNotContainUnderscore
+# 欄位名稱不得包含底線
 dotnet_diagnostic.SA1310.severity = warning
 
 # SA1311: StaticReadonlyFieldsMustBeginWithUpperCaseLetter
+# 靜態唯讀欄位必須以大寫字母開頭
 dotnet_diagnostic.SA1311.severity = warning
 
 # SA1312: VariableNamesMustBeginWithLowerCaseLetter
+# 變數名稱必須以小寫字母開頭
 dotnet_diagnostic.SA1312.severity = warning
 
 # SA1313: ParameterNamesMustBeginWithLowerCaseLetter
+# 參數名稱必須以小寫字母開頭
 dotnet_diagnostic.SA1313.severity = warning
 
 # SA1314: TypeParameterNamesMustBeginWithT
+# 型別參數名稱必須以 T 開頭
 dotnet_diagnostic.SA1314.severity = warning
 
 # SA1316: TupleElementNamesShouldUseCorrectCasing
+# 元組元素名稱應該使用正確的大小寫
 dotnet_diagnostic.SA1316.severity = warning
 
 ###########################
 ## Maintainability Rules ##
 ###########################
 # SA1413: Use trailing comma in multi-line initializers
+# 多行初始設定式中使用尾隨逗號
 dotnet_diagnostic.SA1413.severity = none
 
 ## Layout Rules ## 
 # SA1500: Braces for multi-line statements should not share line
+# 多行陳述式的大括號不得共用同一行
 dotnet_diagnostic.SA1500.severity = warning
 
 # SA1501: Statement should not be on a single line
+# 陳述式不得在單一行上
 dotnet_diagnostic.SA1501.severity = warning
 
 # SA1502: Element should not be on a single line
+# 元素不得在單一行上
 dotnet_diagnostic.SA1502.severity = warning
 
 # SA1503: Braces should not be omitted
+# 不得省略大括號
 dotnet_diagnostic.SA1503.severity = warning
 
 # SA1504: All accessors should be single-line or multi-line
+# 所有存取子應該都是單行或多行
 dotnet_diagnostic.SA1504.severity = warning
 
 # SA1505: Opening braces should not be followed by blank line
+# 左大括號後面不得接空白行
 dotnet_diagnostic.SA1505.severity = warning
 
 # SA1506: Element documentation headers should not be followed by blank line
+# 元素文件標頭後面不得接空白行
 dotnet_diagnostic.SA1506.severity = warning
 
 # SA1507: Code should not contain multiple blank lines in a row
+# 程式碼不得連續包含多個空白行
 dotnet_diagnostic.SA1507.severity = warning
 
 # SA1508: Closing braces should not be preceded by blank line
+# 右大括號前面不得有空白行
 dotnet_diagnostic.SA1508.severity = warning
 
 # SA1509: Opening braces should not be preceded by blank line
+# 左大括號前面不得有空白行
 dotnet_diagnostic.SA1509.severity = warning
 
 # SA1510: Chained statement blocks should not be preceded by blank line
+# 鏈結陳述式區塊前面不得有空白行
 dotnet_diagnostic.SA1510.severity = warning
 
 # SA1511: While-do footer should not be preceded by blank line
+# while-do 頁尾前面不得有空白行
 dotnet_diagnostic.SA1511.severity = warning
 
 # SA1512: Single-line comments should not be followed by blank line
+# 單行註解後面不得接空白行
 dotnet_diagnostic.SA1512.severity = warning
 
 # SA1513: Closing brace should be followed by blank line
+# 右大括號後面必須接空白行
 dotnet_diagnostic.SA1513.severity = warning
 
 # SA1514: Element documentation header should be preceded by blank line
+# 元素文件標頭前面必須有空白行
 dotnet_diagnostic.SA1514.severity = warning
 
 # SA1515: Single-line comment should be preceded by blank line
+# 單行註解前面必須有空白行
 dotnet_diagnostic.SA1515.severity = warning
 
 # SA1516: Elements should be separated by blank line
+# 元素之間應該用空白行分隔
 dotnet_diagnostic.SA1516.severity = warning
 
 # SA1517: Code should not contain blank lines at start of file
+# 檔案開頭不得包含空白行
 dotnet_diagnostic.SA1517.severity = warning
 
 # SA1518: Use line endings correctly at end of file
+# 檔案結尾的行結尾字元使用正確
 dotnet_diagnostic.SA1518.severity = warning
 
 # SA1519: Braces should not be omitted from multi-line child statement
+# 多行子陳述式不得省略大括號
 dotnet_diagnostic.SA1519.severity = warning
 
 #########################
@@ -738,12 +830,15 @@ dotnet_diagnostic.SA1519.severity = warning
 #########################
 
 # SA1614: Element parameter documentation should have text
+# 元素參數文件必須有文字
 dotnet_diagnostic.SA1614.severity = none
 
 # SA1616: Element return value documentation should have text
+# 元素傳回值文件必須有文字
 dotnet_diagnostic.SA1616.severity = none
 
 # SA1629: Documentation text should end with a period
+# 文件文字必須以句點結尾
 dotnet_diagnostic.SA1629.severity = none
 
 ###########################
@@ -752,162 +847,215 @@ dotnet_diagnostic.SA1629.severity = none
 # Source: https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/DocumentationRules.md
 
 # SA1600: ElementsMustBeDocumented
+# 元素必須有文件
 dotnet_diagnostic.SA1600.severity = warning
 
 # SA1601: PartialElementsMustBeDocumented
+# 部分元素必須有文件
 dotnet_diagnostic.SA1601.severity = warning
 
 # SA1602: EnumerationItemsMustBeDocumented
+# 列舉項目必須有文件
 dotnet_diagnostic.SA1602.severity = warning
 
 # SA1603: DocumentationMustContainValidXml
+# 文件必須包含有效的 XML
 dotnet_diagnostic.SA1603.severity = warning
 
 # SA1604: ElementDocumentationMustHaveSummary
+# 元素文件必須有摘要
 dotnet_diagnostic.SA1604.severity = warning
 
 # SA1605: PartialElementDocumentationMustHaveSummary
+# 部分元素文件必須有摘要
 dotnet_diagnostic.SA1605.severity = warning
 
 # SA1606: ElementDocumentationMustHaveSummaryText
+# 元素文件必須有摘要文字
 dotnet_diagnostic.SA1606.severity = warning
 
 # SA1607: PartialElementDocumentationMustHaveSummaryText
+# 部分元素文件必須有摘要文字
 dotnet_diagnostic.SA1607.severity = warning
 
 # SA1608: ElementDocumentationMustNotHaveDefaultSummary
+# 元素文件不得有預設摘要
 dotnet_diagnostic.SA1608.severity = warning
 
 # SA1609: PropertyDocumentationMustHaveValue
+# 屬性文件必須有 value
 dotnet_diagnostic.SA1609.severity = warning
 
 # SA1610: PropertyDocumentationMustHaveValueText
+# 屬性文件必須有 value 文字
 dotnet_diagnostic.SA1610.severity = warning
 
 # SA1611: ElementParametersMustBeDocumented
+# 元素參數必須有文件
 dotnet_diagnostic.SA1611.severity = warning
 
 # SA1612: ElementParameterDocumentationMustMatchElementParameters
+# 元素參數文件必須符合元素參數
 dotnet_diagnostic.SA1612.severity = warning
 
 # SA1613: ElementParameterDocumentationMustDeclareParameterName
+# 元素參數文件必須宣告參數名稱
 dotnet_diagnostic.SA1613.severity = warning
 
 # SA1614: ElementParameterDocumentationMustHaveText
+# 元素參數文件必須有文字
 dotnet_diagnostic.SA1614.severity = none
 
 # SA1615: ElementReturnValueMustBeDocumented
+# 元素傳回值必須有文件
 dotnet_diagnostic.SA1615.severity = warning
 
 # SA1616: ElementReturnValueDocumentationMustHaveText
+# 元素傳回值文件必須有文字
 dotnet_diagnostic.SA1616.severity = none
 
 # SA1617: VoidReturnValueMustNotBeDocumented
+# void 傳回值不得有文件
 dotnet_diagnostic.SA1617.severity = warning
 
 # SA1618: GenericTypeParametersMustBeDocumented
+# 泛型型別參數必須有文件
 dotnet_diagnostic.SA1618.severity = warning
 
 # SA1619: GenericTypeParametersMustBeDocumentedPartialClass
+# 泛型型別參數必須有文件（部分類別）
 dotnet_diagnostic.SA1619.severity = warning
 
 # SA1620: GenericTypeParameterDocumentationMustMatchTypeParameters
+# 泛型型別參數文件必須符合型別參數
 dotnet_diagnostic.SA1620.severity = warning
 
 # SA1621: GenericTypeParameterDocumentationMustDeclareParameterName
+# 泛型型別參數文件必須宣告參數名稱
 dotnet_diagnostic.SA1621.severity = warning
 
 # SA1622: GenericTypeParameterDocumentationMustHaveText
+# 泛型型別參數文件必須有文字
 dotnet_diagnostic.SA1622.severity = warning
 
 # SA1623: PropertySummaryDocumentationMustMatchAccessors
+# 屬性摘要文件必須符合存取子
 dotnet_diagnostic.SA1623.severity = warning
 
 # SA1624: PropertySummaryDocumentationMustOmitSetAccessorWithRestrictedAccess
+# 屬性摘要文件必須省略具有受限存取的 set 存取子
 dotnet_diagnostic.SA1624.severity = warning
 
 # SA1625: ElementDocumentationMustNotBeCopiedAndPasted
+# 元素文件不得複製和貼上
 dotnet_diagnostic.SA1625.severity = warning
 
 # SA1626: SingleLineCommentsMustNotUseDocumentationStyleSlashes
+# 單行註解不得使用文件樣式的斜線
 dotnet_diagnostic.SA1626.severity = warning
 
 # SA1627: DocumentationTextMustNotBeEmpty
+# 文件文字不得為空
 dotnet_diagnostic.SA1627.severity = warning
 
 # SA1628: DocumentationTextMustBeginWithACapitalLetter
+# 文件文字必須以大寫字母開頭
 dotnet_diagnostic.SA1628.severity = warning
 
 # SA1629: DocumentationTextMustEndWithAPeriod
+# 文件文字必須以句點結尾
 dotnet_diagnostic.SA1629.severity = none
 
 # SA1630: DocumentationTextMustContainWhitespace
+# 文件文字必須包含空白字元
 dotnet_diagnostic.SA1630.severity = warning
 
 # SA1631: DocumentationMustMeetCharacterPercentage
+# 文件必須符合字元百分比
 dotnet_diagnostic.SA1631.severity = warning
 
 # SA1632: DocumentationTextMustMeetMinimumCharacterLength
+# 文件文字必須符合最小字元長度
 dotnet_diagnostic.SA1632.severity = none
 
 # SA1633: FileMustHaveHeader
+# 檔案必須有標頭
 dotnet_diagnostic.SA1633.severity = warning
 
 # SA1634: FileHeaderMustShowCopyright
+# 檔案標頭必須顯示著作權
 dotnet_diagnostic.SA1634.severity = warning
 
 # SA1635: FileHeaderMustHaveCopyrightText
+# 檔案標頭必須有著作權文字
 dotnet_diagnostic.SA1635.severity = warning
 
 # SA1636: FileHeaderCopyrightTextMustMatch
+# 檔案標頭著作權文字必須符合
 dotnet_diagnostic.SA1636.severity = warning
 
 # SA1637: FileHeaderMustContainFileName
+# 檔案標頭必須包含檔案名稱
 dotnet_diagnostic.SA1637.severity = warning
 
 # SA1638: FileHeaderFileNameDocumentationMustMatchFileName
+# 檔案標頭檔案名稱文件必須符合檔案名稱
 dotnet_diagnostic.SA1638.severity = warning
 
 # SA1639: FileHeaderMustHaveSummary
+# 檔案標頭必須有摘要
 dotnet_diagnostic.SA1639.severity = warning
 
 # SA1640: FileHeaderMustHaveValidCompanyText
+# 檔案標頭必須有有效的公司文字
 dotnet_diagnostic.SA1640.severity = warning
 
 # SA1641: FileHeaderCompanyNameTextMustMatch
+# 檔案標頭公司名稱文字必須符合
 dotnet_diagnostic.SA1641.severity = warning
 
 # SA1642: ConstructorSummaryDocumentationMustBeginWithStandardText
+# 建構函式摘要文件必須以標準文字開頭
 dotnet_diagnostic.SA1642.severity = warning
 
 # SA1643: DestructorSummaryDocumentationMustBeginWithStandardText
+# 解構函式摘要文件必須以標準文字開頭
 dotnet_diagnostic.SA1643.severity = warning
 
 # SA1644: DocumentationHeadersMustNotContainBlankLines
+# 文件標頭不得包含空白行
 dotnet_diagnostic.SA1644.severity = warning
 
 # SA1645: IncludedDocumentationFileDoesNotExist
+# 包含的文件檔案不存在
 dotnet_diagnostic.SA1645.severity = warning
 
 # SA1646: IncludedDocumentationXPathDoesNotExist
+# 包含的文件 XPath 不存在
 dotnet_diagnostic.SA1646.severity = warning
 
 # SA1647: IncludeNodeDoesNotContainValidFileAndPath
+# include 節點不包含有效的檔案和路徑
 dotnet_diagnostic.SA1647.severity = warning
 
 # SA1648: InheritDocMustBeUsedWithInheritingClass
+# inheritdoc 必須與繼承類別一起使用
 dotnet_diagnostic.SA1648.severity = warning
 
 # SA1649: FileNameMustMatchTypeName
+# 檔案名稱必須符合型別名稱
 dotnet_diagnostic.SA1649.severity = warning
 
 # SA1650: ElementDocumentationMustBeSpelledCorrectly
+# 元素文件的拼寫必須正確
 dotnet_diagnostic.SA1650.severity = warning
 
 # SA1651: DoNotUsePlaceholderElements
+# 不要使用預留位置元素
 dotnet_diagnostic.SA1651.severity = warning
 
 # SA1652: EnableXmlDocumentationOutput (moved to SA0001)
+# 啟用 XML 文件輸出（已移至 SA0001）
 dotnet_diagnostic.SA1652.severity = none
 
 
