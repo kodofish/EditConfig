@@ -417,7 +417,7 @@ dotnet_diagnostic.SA1300.severity = none
 ## Maintainability Rules ##
 ###########################
 # SA1413: Use trailing comma in multi-line initializers
-dotnet_diagnostic.SA1413.serverity = none
+dotnet_diagnostic.SA1413.severity = none
 
 ## Layout Rules ## 
 # SA1500: Braces for multi-line statements should not share line
