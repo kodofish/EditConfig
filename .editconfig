@@ -522,9 +522,55 @@ dotnet_diagnostic.SA1208.severity = warning
 ##################
 ## Naming Rules ##
 ##################
+# Source: https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/NamingRules.md
 
-# SA1300: Element should begin with upper-case letter
+# SA1300: ElementMustBeginWithUpperCaseLetter
 dotnet_diagnostic.SA1300.severity = none
+
+# SA1301: ElementMustBeginWithLowerCaseLetter
+dotnet_diagnostic.SA1301.severity = none
+
+# SA1302: InterfaceNamesMustBeginWithI
+dotnet_diagnostic.SA1302.severity = warning
+
+# SA1303: ConstFieldNamesMustBeginWithUpperCaseLetter
+dotnet_diagnostic.SA1303.severity = warning
+
+# SA1304: NonPrivateReadonlyFieldsMustBeginWithUpperCaseLetter
+dotnet_diagnostic.SA1304.severity = warning
+
+# SA1305: FieldNamesMustNotUseHungarianNotation
+dotnet_diagnostic.SA1305.severity = none
+
+# SA1306: FieldNamesMustBeginWithLowerCaseLetter
+dotnet_diagnostic.SA1306.severity = none
+
+# SA1307: AccessibleFieldsMustBeginWithUpperCaseLetter
+dotnet_diagnostic.SA1307.severity = warning
+
+# SA1308: VariableNamesMustNotBePrefixed
+dotnet_diagnostic.SA1308.severity = none
+
+# SA1309: FieldNamesMustNotBeginWithUnderscore
+dotnet_diagnostic.SA1309.severity = none
+
+# SA1310: FieldNamesMustNotContainUnderscore
+dotnet_diagnostic.SA1310.severity = warning
+
+# SA1311: StaticReadonlyFieldsMustBeginWithUpperCaseLetter
+dotnet_diagnostic.SA1311.severity = warning
+
+# SA1312: VariableNamesMustBeginWithLowerCaseLetter
+dotnet_diagnostic.SA1312.severity = warning
+
+# SA1313: ParameterNamesMustBeginWithLowerCaseLetter
+dotnet_diagnostic.SA1313.severity = warning
+
+# SA1314: TypeParameterNamesMustBeginWithT
+dotnet_diagnostic.SA1314.severity = warning
+
+# SA1316: TupleElementNamesShouldUseCorrectCasing
+dotnet_diagnostic.SA1316.severity = warning
 
 ###########################
 ## Maintainability Rules ##
