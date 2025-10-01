@@ -513,11 +513,52 @@ dotnet_diagnostic.SA1142.severity = warning
 ####################
 ## Ordering Rules ##
 ####################
-# SA1200: Using directives should be placed correctly
+# Source: https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/OrderingRules.md
+
+# SA1200: UsingDirectivesMustBePlacedCorrectly
 dotnet_diagnostic.SA1200.severity = none
 
-# SA1208: System using directives should be placed before other using directives
+# SA1201: ElementsMustAppearInTheCorrectOrder
+dotnet_diagnostic.SA1201.severity = warning
+
+# SA1202: ElementsMustBeOrderedByAccess
+dotnet_diagnostic.SA1202.severity = warning
+
+# SA1203: ConstantsMustAppearBeforeFields
+dotnet_diagnostic.SA1203.severity = warning
+
+# SA1204: StaticElementsMustAppearBeforeInstanceElements
+dotnet_diagnostic.SA1204.severity = warning
+
+# SA1205: PartialElementsMustDeclareAccess
+dotnet_diagnostic.SA1205.severity = warning
+
+# SA1206: DeclarationKeywordsMustFollowOrder
+dotnet_diagnostic.SA1206.severity = warning
+
+# SA1207: ProtectedMustComeBeforeInternal
+dotnet_diagnostic.SA1207.severity = warning
+
+# SA1208: SystemUsingDirectivesMustBePlacedBeforeOtherUsingDirectives
 dotnet_diagnostic.SA1208.severity = warning
+
+# SA1209: UsingAliasDirectivesMustBePlacedAfterOtherUsingDirectives
+dotnet_diagnostic.SA1209.severity = warning
+
+# SA1210: UsingDirectivesMustBeOrderedAlphabeticallyByNamespace
+dotnet_diagnostic.SA1210.severity = warning
+
+# SA1211: UsingAliasDirectivesMustBeOrderedAlphabeticallyByAliasName
+dotnet_diagnostic.SA1211.severity = warning
+
+# SA1212: PropertyAccessorsMustFollowOrder
+dotnet_diagnostic.SA1212.severity = warning
+
+# SA1213: EventAccessorsMustFollowOrder
+dotnet_diagnostic.SA1213.severity = warning
+
+# SA1214: ReadonlyElementsMustAppearBeforeNonReadonlyElements
+dotnet_diagnostic.SA1214.severity = warning
 
 ##################
 ## Naming Rules ##
