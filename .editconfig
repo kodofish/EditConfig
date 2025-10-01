@@ -740,11 +740,15 @@ dotnet_diagnostic.SA1316.severity = warning
 ###########################
 ## Maintainability Rules ##
 ###########################
+
 # SA1413: Use trailing comma in multi-line initializers
 # 多行初始設定式中使用尾隨逗號
 dotnet_diagnostic.SA1413.severity = none
 
-## Layout Rules ## 
+##################
+## Layout Rules ##
+##################
+
 # SA1500: Braces for multi-line statements should not share line
 # 多行陳述式的大括號不得共用同一行
 dotnet_diagnostic.SA1500.severity = warning
@@ -825,24 +829,8 @@ dotnet_diagnostic.SA1518.severity = warning
 # 多行子陳述式不得省略大括號
 dotnet_diagnostic.SA1519.severity = warning
 
-#########################
-## Documentation Rules ##
-#########################
-
-# SA1614: Element parameter documentation should have text
-# 元素參數文件必須有文字
-dotnet_diagnostic.SA1614.severity = none
-
-# SA1616: Element return value documentation should have text
-# 元素傳回值文件必須有文字
-dotnet_diagnostic.SA1616.severity = none
-
-# SA1629: Documentation text should end with a period
-# 文件文字必須以句點結尾
-dotnet_diagnostic.SA1629.severity = none
-
 ###########################
-## Documentation Rules (SA1600-)
+## Documentation Rules   ##
 ###########################
 # Source: https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/DocumentationRules.md
 
@@ -1058,8 +1046,6 @@ dotnet_diagnostic.SA1651.severity = warning
 # 啟用 XML 文件輸出（已移至 SA0001）
 dotnet_diagnostic.SA1652.severity = none
 
-
-
 ###################################
 ## Code Analysis - Quality Rules ##
 ###################################
@@ -1123,7 +1109,7 @@ dotnet_diagnostic.CA2227.severity = warning
 # CA2229: Implement serialization constructors
 dotnet_diagnostic.CA2229.severity = warning
 
-# CA2231: Overload operator equals on overriding ValueType.Equals
+# CA2231: Overload operator equals on overriding ValueType.equals
 dotnet_diagnostic.CA2231.severity = warning
 
 # CA2234: Pass System.Uri objects instead of strings
