@@ -438,6 +438,127 @@ dotnet_naming_style.pascalcase_async.capitalization = pascal_case
 # StyleCop.Analyzers #
 ######################
 
+###################
+## Spacing Rules ##
+###################
+# Source: https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SpacingRules.md
+
+# SA1000: KeywordsMustBeSpacedCorrectly
+# 關鍵字必須正確地使用空格
+dotnet_diagnostic.SA1000.severity = warning
+
+# SA1001: CommasMustBeSpacedCorrectly
+# 逗號必須正確地使用空格
+dotnet_diagnostic.SA1001.severity = warning
+
+# SA1002: SemicolonsMustBeSpacedCorrectly
+# 分號必須正確地使用空格
+dotnet_diagnostic.SA1002.severity = warning
+
+# SA1003: SymbolsMustBeSpacedCorrectly
+# 符號必須正確地使用空格
+dotnet_diagnostic.SA1003.severity = warning
+
+# SA1004: DocumentationLinesMustBeginWithSingleSpace
+# 文件行必須以單一空格開頭
+dotnet_diagnostic.SA1004.severity = warning
+
+# SA1005: SingleLineCommentsMustBeginWithSingleSpace
+# 單行註解必須以單一空格開頭
+dotnet_diagnostic.SA1005.severity = warning
+
+# SA1006: PreprocessorKeywordsMustNotBePrecededBySpace
+# 前置處理器關鍵字前面不得有空格
+dotnet_diagnostic.SA1006.severity = warning
+
+# SA1007: OperatorKeywordMustBeFollowedBySpace
+# 運算子關鍵字後面必須有空格
+dotnet_diagnostic.SA1007.severity = warning
+
+# SA1008: OpeningParenthesisMustBeSpacedCorrectly
+# 左括號必須正確地使用空格
+dotnet_diagnostic.SA1008.severity = warning
+
+# SA1009: ClosingParenthesisMustBeSpacedCorrectly
+# 右括號必須正確地使用空格
+dotnet_diagnostic.SA1009.severity = warning
+
+# SA1010: OpeningSquareBracketsMustBeSpacedCorrectly
+# 左方括號必須正確地使用空格
+dotnet_diagnostic.SA1010.severity = warning
+
+# SA1011: ClosingSquareBracketsMustBeSpacedCorrectly
+# 右方括號必須正確地使用空格
+dotnet_diagnostic.SA1011.severity = warning
+
+# SA1012: OpeningBracesMustBeSpacedCorrectly
+# 左大括號必須正確地使用空格
+dotnet_diagnostic.SA1012.severity = warning
+
+# SA1013: ClosingBracesMustBeSpacedCorrectly
+# 右大括號必須正確地使用空格
+dotnet_diagnostic.SA1013.severity = warning
+
+# SA1014: OpeningGenericBracketsMustBeSpacedCorrectly
+# 左泛型括號必須正確地使用空格
+dotnet_diagnostic.SA1014.severity = warning
+
+# SA1015: ClosingGenericBracketsMustBeSpacedCorrectly
+# 右泛型括號必須正確地使用空格
+dotnet_diagnostic.SA1015.severity = warning
+
+# SA1016: OpeningAttributeBracketsMustBeSpacedCorrectly
+# 左屬性括號必須正確地使用空格
+dotnet_diagnostic.SA1016.severity = warning
+
+# SA1017: ClosingAttributeBracketsMustBeSpacedCorrectly
+# 右屬性括號必須正確地使用空格
+dotnet_diagnostic.SA1017.severity = warning
+
+# SA1018: NullableTypeSymbolsMustNotBePrecededBySpace
+# 可為 null 型別符號前面不得有空格
+dotnet_diagnostic.SA1018.severity = warning
+
+# SA1019: MemberAccessSymbolsMustBeSpacedCorrectly
+# 成員存取符號必須正確地使用空格
+dotnet_diagnostic.SA1019.severity = warning
+
+# SA1020: IncrementDecrementSymbolsMustBeSpacedCorrectly
+# 遞增遞減符號必須正確地使用空格
+dotnet_diagnostic.SA1020.severity = warning
+
+# SA1021: NegativeSignsMustBeSpacedCorrectly
+# 負號必須正確地使用空格
+dotnet_diagnostic.SA1021.severity = warning
+
+# SA1022: PositiveSignsMustBeSpacedCorrectly
+# 正號必須正確地使用空格
+dotnet_diagnostic.SA1022.severity = warning
+
+# SA1023: DereferenceAndAccessOfSymbolsMustBeSpacedCorrectly
+# 取值和存取符號必須正確地使用空格
+dotnet_diagnostic.SA1023.severity = warning
+
+# SA1024: ColonsMustBeSpacedCorrectly
+# 冒號必須正確地使用空格
+dotnet_diagnostic.SA1024.severity = warning
+
+# SA1025: CodeMustNotContainMultipleWhitespaceInARow
+# 程式碼不得連續包含多個空格
+dotnet_diagnostic.SA1025.severity = warning
+
+# SA1026: CodeMustNotContainSpaceAfterNewKeywordInImplicitlyTypedArrayAllocation
+# 在隱含類型陣列配置中，new 關鍵字後面不得有空格
+dotnet_diagnostic.SA1026.severity = warning
+
+# SA1027: UseTabsCorrectly
+# 正確地使用 Tab
+dotnet_diagnostic.SA1027.severity = warning
+
+# SA1028: CodeMustNotContainTrailingWhitespace
+# 程式碼不得包含結尾空白字元
+dotnet_diagnostic.SA1028.severity = warning
+
 #######################
 ## Readability Rules ##
 #######################
